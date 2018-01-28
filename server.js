@@ -15,10 +15,10 @@ server.use(cors())
 // }
 server.use('/facebook', function(req, resp) {
     resp.redirect("https://www.facebook.com/ifs.devconf.1")
-})
+});
 server.use('/instagram', function(req, resp) {
     resp.redirect("https://www.instagram.com/ifsdevconf/")
-})
+});
 server.use('/', express.static('public'));
 
 
