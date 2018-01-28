@@ -13,16 +13,24 @@ server.use(cors())
 //         }
 //     });
 // }
+server.use('/facebook', function(req, resp) {
+    resp.redirect("https://www.facebook.com/ifs.devconf.1")
+})
+server.use('/instagram', function(req, resp) {
+    resp.redirect("https://www.instagram.com/ifsdevconf/")
+})
 server.use('/', express.static('public'));
 
 
 
-server.get('/', function (req, resp) {
-    resp.sendFile('public/index.html', { root: __dirname })
+server.get('/', function(req, resp) {
+    resp.sendFile('public/index.html', {
+        root: __dirname
+    })
 })
 
 var port = process.env.PORT || 3000;
 
-server.listen(port, function () {
+server.listen(port, function() {
     console.log('escutando na porta: ' + port)
 })
