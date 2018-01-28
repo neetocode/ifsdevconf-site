@@ -1,0 +1,43 @@
+:root {
+    --brand-light-color: #5a656f;
+    --brand-color: #343c43;
+    --invert-color: #EF6C00;
+    --invet-light-color: #ff9f50;
+    --green: #1f7d20;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+#brand {
+    height: 100%;
+    background-color: #161a1d;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fill-top {
+    height: 7px;
+    width: 100%;
+    background-color: var(--green);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#img-logo {
+    width: 50%;
+    z-index: 2;
+
+}
