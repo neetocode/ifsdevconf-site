@@ -1,0 +1,16 @@
+{
+    "name": "ifsdevconf-site",
+    "version": "1.0.0",
+    "description": "Site de divulgação do evento IFS DEV CONF 2018. Organizado por alunos do Instituto Federal de Sergipe - Campus Lagarto.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "author": "Miguel Neto",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.4",
+        "express": "^4.16.2"
+    }
+}
