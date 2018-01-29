@@ -83,6 +83,7 @@ section {
     z-index: 1;
     position: relative;
     overflow: hidden;
+    height: 500px;
 }
 
 section h2 {
@@ -91,6 +92,39 @@ section h2 {
     text-align: center;
     font-weight: 900;
     text-decoration: underline;
+}
+
+section h4 {
+    font-size: 2em;
+    color: #535353;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.social-container {
+    position: absolute;
+    top: 3%;
+    right: 10px;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.social-container li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+.social-container a {
+    color: #9c9c9c;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.social-container a:hover,
+.social-container a:focus {
+    color: white;
 }
 
 #sobre {}
