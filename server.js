@@ -3,16 +3,16 @@ var cors = require('cors')
 var server = express()
 
 server.use(cors())
-// if (process.env.NODE_ENV == 'production') {
-//     server.use(function (req, res, next) {
-//         var schema = (req.headers['x-forwarded-proto'] || '').toLowerCase();
-//         if (schema === 'https') {
-//             next();
-//         } else {
-//             res.redirect('https://' + req.headers.host + req.url);
-//         }
-//     });
-// }
+if (process.env.NODE_ENV == 'production') {
+    server.use(function (req, res, next) {
+        var schema = (req.headers['x-forwarded-proto'] || '').toLowerCase();
+        if (schema === 'https') {
+            next();
+        } else {
+            res.redirect('https://' + req.headers.host + req.url);
+        }
+    });
+}
 server.use('/facebook', function(req, resp) {
     resp.redirect("https://www.facebook.com/devconftech/")
 });
