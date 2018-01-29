@@ -14,10 +14,10 @@ server.use(cors())
 //     });
 // }
 server.use('/facebook', function(req, resp) {
-    resp.redirect("https://www.facebook.com/ifs.devconf.1")
+    resp.redirect("https://www.facebook.com/devconftech/")
 });
 server.use('/instagram', function(req, resp) {
-    resp.redirect("https://www.instagram.com/ifsdevconf/")
+    resp.redirect("https://www.instagram.com/devconftech/")
 });
 server.use('/', express.static('public'));
 
