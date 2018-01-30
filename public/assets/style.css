@@ -154,9 +154,11 @@ footer {
     .show-xs {
         display: block !important;
     }
+
     .hidden-xs {
         display: none !important;
     }
+
     .show-xs.flex {
         display: flex !important;
     }
