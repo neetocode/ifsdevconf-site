@@ -19,12 +19,12 @@ server.use('/facebook', function(req, resp) {
 server.use('/instagram', function(req, resp) {
     resp.redirect("https://www.instagram.com/devconftech/")
 });
-server.use('/', express.static('public'));
+server.use('/', express.static('dist'));
 
 
 
 server.get('/', function(req, resp) {
-    resp.sendFile('public/index.html', {
+    resp.sendFile('dist/index.html', {
         root: __dirname
     })
 })
