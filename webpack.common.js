@@ -49,6 +49,9 @@ module.exports = {
         new CleanWebpackPlugin(['dist']),
         new ExtractTextPlugin('app.[hash].css'),
         new CopyWebpackPlugin([
+            'src/assets/browserconfig.xml',
+            'src/assets/manifest.json',
+            'src/assets/favicon.icon',
             // new ServiceWorkerWebpackPlugin({
             //     entry: path.join(__dirname, 'src/assets/sw/OneSignalSDKWorker.js'),
             //     filename: "OneSignalSDKWorker.js",

@@ -1,7 +1,7 @@
 import React from 'react'
 import Particles from 'react-particles-js';
 import configParticle from './config/particles.json'
-import logo2 from './assets/logo2.svg'
+import logoAnimated from './assets/logo-animated.svg'
 
 class Brand extends React.Component {
 
@@ -11,10 +11,11 @@ class Brand extends React.Component {
                 <div id="fill-top"></div>
 
                 <Particles
+                    className="particles-js"
                     params={configParticle}
                 />
-                
-                <img src={logo2}/>
+
+                <img id="img-logo" src={logoAnimated} />
                 <ul className="social-container">
                     <li>
                         <a href="https://www.instagram.com/devconftech/" target="_blank"><i className="fa fa-instagram"></i> devconftech</a>
