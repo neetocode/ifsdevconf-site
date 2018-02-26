@@ -51,7 +51,7 @@ module.exports = {
         new CopyWebpackPlugin([
             'src/assets/browserconfig.xml',
             'src/assets/manifest.json',
-            'src/assets/favicon.icon',
+            'src/assets/favicon.ico',
             // new ServiceWorkerWebpackPlugin({
             //     entry: path.join(__dirname, 'src/assets/sw/OneSignalSDKWorker.js'),
             //     filename: "OneSignalSDKWorker.js",
