@@ -1,0 +1,143 @@
+[{
+        "dia": "03",
+        "diaLabel": "terça-feira",
+        "programacao": [{
+                "palestra": false,
+                "nome": "Credenciamento",
+                "img": "",
+                "horario": "18:40"
+            },
+            {
+                "palestra": false,
+                "nome": "Abertura",
+                "img": "",
+                "horario": "19:20"
+            },
+            {
+                "palestra": true,
+                "nome": "Suas escolhas definem os seus caminhos",
+                "descricao": "O objetivo da palestra é mostrar para os ouvintes que o sucesso profissional depende principalmente das escolhas diante das adversidades e desafios que surgem ao longo da formação profissional.",
+                "sobre": "Atualmente trabalhando na Caju Tech (trabalhando com tecnologias de Blockchain e Fintech junto a MoneyEx, empresa paulistana) e estudante do Instituto Federal em Lagarto, ex competidor da WorldSkills AbuDhabi 2017 em Soluções de Software através do SENAI.",
+                "horario": "19:40",
+                "palestrante": {
+                    "img": "/sergio.jpeg",
+                    "nome": "Sérgio Alves"
+                }
+            },
+            {
+                "palestra": false,
+                "nome": "️️️Coffe-Break",
+                "img": "",
+                "horario": "20:10"
+            },
+            {
+                "palestra": true,
+                "aDefinir": true,
+                "nome": "Palestra 02",
+                "descricao": "Á definir",
+                "sobre": "Á definir",
+                "horario": "20:30",
+                "palestrante": {
+                    "img": "/avatar.png",
+                    "nome": "Á definir"
+                }
+            },
+            {
+                "palestra": true,
+                "nome": "BlockChain para Desenvolvedores: Como desenvolver com essa ferramenta?",
+                "descricao": "Para o desenvolvedor BlockChain é uma ferramenta poderosa que vai muito além de que apenas o Bitcoin, muito se tem escutado sobre o poder revolucionário que o BlockChain carrega e é um diferencial para você como desenvolvedor saber utiliza-la. ",
+                "sobre": "Estudante da Universidade Federal de Sergipe, Integrante do Miau Mozilla Club, trabalha na Controladoria Geral do Estado.",
+                "horario": "21:00",
+                "palestrante": {
+                    "img": "/mayara-machado.jpeg",
+                    "nome": "Mayara Machado"
+                }
+            }
+        ]
+    },
+    {
+        "dia": "04",
+        "diaLabel": "quarta-feira",
+        "programacao": [{
+                "palestra": true,
+                "nome": "Á definir",
+                "descricao": "Á definir",
+                "horario": "19:15",
+                "palestrante": {
+                    "img": "/andrey-wallace.jpeg",
+                    "nome": "Andrey Wallace"
+                }
+            },
+            {
+                "palestra": true,
+                "aDefinir": true,
+                "nome": "Palestra 05",
+                "descricao": "Á definir",
+                "sobre": "Á definir",
+                "horario": "20:00",
+                "palestrante": {
+                    "img": "/avatar.png",
+                    "nome": "Á definir"
+                }
+            },
+            {
+                "palestra": false,
+                "nome": "️️️Coffe-Break",
+                "img": "",
+                "horario": "20:40"
+            },
+            {
+                "palestra": true,
+                "aDefinir": true,
+                "nome": "Palestra 06",
+                "descricao": "Á definir",
+                "sobre": "Á definir",
+                "horario": "21:00",
+                "palestrante": {
+                    "img": "/avatar.png",
+                    "nome": "Á definir"
+                }
+            }
+        ]
+    },
+    {
+        "dia": "05",
+        "diaLabel": "quinta-feira",
+        "programacao": [{
+                "palestra": true,
+                "aDefinir": true,
+                "nome": "Palestra 07",
+                "descricao": "Á definir",
+                "sobre": "Á definir",
+                "horario": "19:15",
+                "palestrante": {
+                    "img": "/avatar.png",
+                    "nome": "Á definir"
+                }
+            }, {
+                "palestra": true,
+                "aDefinir": true,
+                "nome": "Palestra 08",
+                "descricao": "Á definir",
+                "sobre": "Á definir",
+                "horario": "20:10",
+                "palestrante": {
+                    "img": "/avatar.png",
+                    "nome": "Á definir"
+                }
+            },
+            {
+                "palestra": false,
+                "nome": "️️️Encerramento",
+                "img": "",
+                "horario": "21:00"
+            },
+            {
+                "palestra": false,
+                "nome": "️️️Coffe-Break",
+                "img": "",
+                "horario": "21:20"
+            }
+        ]
+    }
+]
