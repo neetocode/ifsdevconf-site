@@ -13,23 +13,9 @@ import Contato from './Contato'
 
 class App extends React.Component {
 
-
     componentWillMount() {
-
-        // console.log(ParticleJs)
-        // ParticleJs.load('particles-js', configParticle);
-
-        // const brand = document.getElementById("brand");
-
-        // window.addEventListener("resize", this.setPaddingBody);
-
-        //  window.addEventListener("scroll", function () {
-
-        // })
-
         this.setPaddingBody();
     }
-
 
     setPaddingBody() {
         const body = document.querySelector("body");
