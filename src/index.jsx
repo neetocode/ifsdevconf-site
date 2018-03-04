@@ -5,6 +5,7 @@ import App from './App'
 
 
 import './style.css'
+import './../node_modules/bulma/css/bulma.css'
 import './assets/android-chrome-192x192.png'
 import './assets/android-chrome-384x384.png'
 import './assets/apple-touch-icon.png'
