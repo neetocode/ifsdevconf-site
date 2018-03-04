@@ -11,6 +11,8 @@
     "author": "Miguel Neto",
     "license": "ISC",
     "dependencies": {
+        "basicscroll": "^2.0.0",
+        "bulma": "^0.6.2",
         "cors": "^2.8.4",
         "express": "^4.16.2",
         "particles.js": "^2.0.0",

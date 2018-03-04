@@ -30,7 +30,7 @@ module.exports = {
                 })
             },
             {
-                test: /\.woff|.woff2|.ttf|.eot|.ico|.svg|.png*.*$/,
+                test: /\.woff|.woff2|.ttf|.eot|.ico|.jpg|.svg|.png*.*$/,
                 loader: 'file-loader?name=[name].[ext]'
             },
             {
@@ -52,6 +52,11 @@ module.exports = {
             'src/assets/browserconfig.xml',
             'src/assets/manifest.json',
             'src/assets/favicon.ico',
+            'src/assets/palestrantes/sergio.jpeg',
+            'src/assets/palestrantes/avatar.png',
+            'src/assets/palestrantes/mayara-machado.jpeg',
+            'src/assets/palestrantes/andrey-wallace.jpeg'
+
             // new ServiceWorkerWebpackPlugin({
             //     entry: path.join(__dirname, 'src/assets/sw/OneSignalSDKWorker.js'),
             //     filename: "OneSignalSDKWorker.js",
