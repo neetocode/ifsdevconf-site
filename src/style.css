@@ -222,7 +222,7 @@ footer {
     font-weight: bold;
     font-size: 1.1em;
     margin: 0;
-    color: var(--invert-color);
+    color: var(--brand-light-color);
     text-align: left;
 }
 
