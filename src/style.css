@@ -87,7 +87,7 @@ section {
 }
 
 section h2.title {
-    font-size: 2em;
+    font-size: 2em !important;
     color: #161a1d;
     text-align: center;
     font-weight: 900;
@@ -165,11 +165,12 @@ footer {
 .dias-evento {
     color: white;
     position: absolute;
-    bottom: 10px;
+    bottom: 9%;
     font-size: 3em;
 }
 
-.proposta h2 {
+.proposta h2,
+#contato h3 {
     font-weight: bold;
     font-size: 1.5em;
 }
@@ -271,8 +272,7 @@ footer {
     flex-direction: row;
 }
 
-.patrocinadores-container h2,
-#contato h2 {
+.patrocinadores-container h2 {
     font-weight: 700;
     font-size: 1.5em;
 }
@@ -288,7 +288,16 @@ footer {
     border-radius: 50%;
 }
 
-.palestra-container .palestrante .contatos {}
+.palestrante .contatos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: wrap;
+}
+
+.palestrante .contatos a {
+    padding: 5px;
+}
 
 /* tablet */
 
@@ -319,18 +328,21 @@ footer {
         padding: 0 5% !important;
     }
 
+    .container {
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+
 }
 
 .text-center {
     text-align: center;
 }
 
-
 @media only screen and (min-width: 768px) {
     .show-xs {
         display: none !important;
     }
-
 }
 
 /* tablet */
