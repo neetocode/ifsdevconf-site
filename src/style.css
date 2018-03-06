@@ -260,6 +260,34 @@ footer {
 
 }
 
+.patrocinadores-container {
+    padding: 10px 0;
+}
+
+.patrocinadores-container .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.patrocinadores-container h2,
+#contato h2 {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.patrocinadores-container .header img {
+    margin-right: 5px;
+    box-shadow: 0 2px 3px hsla(0, 0%, 4%, .1), 0 0 0 1px hsla(0, 0%, 4%, .1);
+}
+
+.img-cota {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 .palestra-container .palestrante .contatos {}
 
 /* tablet */
@@ -291,6 +319,10 @@ footer {
         padding: 0 5% !important;
     }
 
+}
+
+.text-center {
+    text-align: center;
 }
 
 

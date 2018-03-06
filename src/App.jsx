@@ -31,6 +31,7 @@ class App extends React.Component {
                 <MainNav />
                 <Sobre />
                 <Programacao />
+                <Patrocinadores />
                 <Contato />
             </div>
         )
