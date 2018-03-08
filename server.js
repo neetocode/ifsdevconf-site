@@ -22,7 +22,6 @@ server.use('/instagram', function(req, resp) {
 server.use('/', express.static('dist'));
 
 
-
 server.get('/', function(req, resp) {
     resp.sendFile('dist/index.html', {
         root: __dirname

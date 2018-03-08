@@ -1,5 +1,5 @@
 import React from 'react'
-import * as basicScroll from 'basicscroll'
+
 
 import conhecimento from './assets/conhecimento.jpg'
 import business from './assets/business.png'
@@ -11,22 +11,22 @@ class Sobre extends React.Component {
     // executa um vez só depois do primeiro render
     componentDidMount() {
 
-        const fadeBox = basicScroll.create({
-            elem: document.querySelector('.img-proposta'),
-            from: -500,
-            to: 10,
-            direct: true,
-            // inside: (instance, percentage) => console.log('fadeBox is animating'),
-            // outside: (instance, percentage) => console.log('fadeBox is not animating'),
-            props: {
-                'left': {
-                    from: .01,
-                    to: .99
-                }
-            }
-        })
+        // const fadeBox = basicScroll.create({
+        //     elem: document.querySelector('.img-proposta'),
+        //     from: -500,
+        //     to: 10,
+        //     direct: true,
+        //     // inside: (instance, percentage) => console.log('fadeBox is animating'),
+        //     // outside: (instance, percentage) => console.log('fadeBox is not animating'),
+        //     props: {
+        //         'left': {
+        //             from: .01,
+        //             to: .99
+        //         }
+        //     }
+        // })
 
-        fadeBox.start()
+        // fadeBox.start()
     }
 
     render() {
