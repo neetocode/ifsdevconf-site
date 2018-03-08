@@ -21,7 +21,9 @@
                 "horario": "19:40",
                 "palestrante": {
                     "img": "/sergio.jpeg",
-                    "nome": "Sérgio Alves"
+                    "nome": "Sérgio Alves",
+                    "instagram": "sergioalves_",
+                    "linkedin": "alvessergio"
                 }
             },
             {
@@ -39,7 +41,11 @@
                 "horario": "20:30",
                 "palestrante": {
                     "img": "/avatar.png",
-                    "nome": "Á definir"
+                    "nome": "Á definir",
+                    "twitter": "",
+                    "instagram": "",
+                    "linkedin": "",
+                    "github": ""
                 }
             },
             {
@@ -50,7 +56,10 @@
                 "horario": "21:00",
                 "palestrante": {
                     "img": "/mayara-machado.jpeg",
-                    "nome": "Mayara Machado"
+                    "nome": "Mayara Machado",
+                    "twitter": "maaih_machado",
+                    "github": "MayaraMachado",
+                    "instagram": "may.mchdo"
                 }
             }
         ]
@@ -65,19 +74,26 @@
                 "horario": "19:15",
                 "palestrante": {
                     "img": "/andrey-wallace.jpeg",
-                    "nome": "Andrey Wallace"
+                    "nome": "Andrey Wallace",
+                    "twitter": "",
+                    "instagram": "",
+                    "linkedin": "andrey-wallace-6434b72",
+                    "github": ""
                 }
             },
             {
                 "palestra": true,
-                "aDefinir": true,
-                "nome": "Palestra 05",
+                "nome": "Intraempreendedorismo - Você é a sua empresa",
                 "descricao": "Á definir",
-                "sobre": "Á definir",
+                "sobre": "Tech Leader Software Engineer na Jaya Tech",
                 "horario": "20:00",
                 "palestrante": {
-                    "img": "/avatar.png",
-                    "nome": "Á definir"
+                    "img": "/breno-moura.jpg",
+                    "nome": "Breno Moura",
+                    "twitter": "basmoura",
+                    "instagram": "basmoura",
+                    "linkedin": "basmoura",
+                    "github": "basmoura"
                 }
             },
             {
@@ -95,7 +111,11 @@
                 "horario": "21:00",
                 "palestrante": {
                     "img": "/avatar.png",
-                    "nome": "Á definir"
+                    "nome": "Á definir",
+                    "twitter": "",
+                    "instagram": "",
+                    "linkedin": "",
+                    "github": ""
                 }
             }
         ]
@@ -112,7 +132,11 @@
                 "horario": "19:15",
                 "palestrante": {
                     "img": "/avatar.png",
-                    "nome": "Á definir"
+                    "nome": "Á definir",
+                    "twitter": "",
+                    "instagram": "",
+                    "linkedin": "",
+                    "github": ""
                 }
             }, {
                 "palestra": true,
@@ -123,7 +147,11 @@
                 "horario": "20:10",
                 "palestrante": {
                     "img": "/avatar.png",
-                    "nome": "Á definir"
+                    "nome": "Á definir",
+                    "twitter": "",
+                    "instagram": "",
+                    "linkedin": "",
+                    "github": ""
                 }
             },
             {

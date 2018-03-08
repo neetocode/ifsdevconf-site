@@ -23,7 +23,7 @@ class Programacao extends React.Component {
     }
 
     renderPalestra(palestra) {
-
+        const { palestrante } = palestra
         return (
             <div key={palestra.nome} className={`palestra-container${palestra.aDefinir ? ' aDefinir' : ''}`}>
                 <div className='header'>
@@ -40,32 +40,43 @@ class Programacao extends React.Component {
                 </div> */}
 
                 <div className='palestrante'>
-                    <img src={palestra.palestrante.img} />
+                    <img src={palestrante.img} />
                     <h3 className='nome'>
-                        {palestra.palestrante.nome}
+                        {palestrante.nome}
                     </h3>
 
                     {!palestra.aDefinir && (
                         <div className='contatos'>
-                            <a href="#">
-                                <i className='fa fa-twitter-square'></i>
-                            </a>
+                            {palestrante.twitter && (
+                                <a href={`https://twitter.com/${palestrante.twitter}`} target='_blank' title='Twitter'>
+                                    <i className='fa fa-twitter-square'></i>
+                                </a>
+                            )}
 
-                            <a href="#">
-                                <i className='fa fa-github'></i>
-                            </a>
+                            {palestrante.github && (
+                                <a href={`https://github.com/${palestrante.github}`} target='_blank' title='GitHub'>
+                                    <i className='fa fa-github'></i>
+                                </a>
+                            )}
 
-                            <a href="#">
-                                <i className='fa fa-instagram'></i>
-                            </a>
+                            {palestrante.instagram && (
+                                <a href={`https://instagram.com/${palestrante.instagram}`} target='_blank' title='Instagram'>
+                                    <i className='fa fa-instagram'></i>
+                                </a>
+                            )}
 
-                            <a href="#">
-                                <i className='fa fa-linkedin'></i>
-                            </a>
+                            {palestrante.linkedin && (
+                                <a href={`https://linkedin.com/in/${palestrante.linkedin}`} target='_blank' title='LinkedIn'>
+                                    <i className='fa fa-linkedin'></i>
+                                </a>
+                            )}
 
-                            <a href="#">
-                                <i className='fa fa-envelope'></i>
-                            </a>
+                            {palestrante.email && (
+                                <a href={`${palestrante.twitter}`} target='_blank' title='E-mail'>
+                                    <i className='fa fa-envelope'></i>
+                                </a>
+                            )}
+
                         </div>
                     )}
                 </div>
