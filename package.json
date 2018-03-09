@@ -6,7 +6,7 @@
     "scripts": {
         "start": "node server.js",
         "dev": "webpack-dev-server -d --progress --colors --inline --hot --config webpack.dev.js",
-        "build-prod": "webpack --progress --colors --config webpack.prod.js"
+        "dist": "webpack --progress --colors --config webpack.prod.js"
     },
     "author": "Miguel Neto",
     "license": "ISC",
