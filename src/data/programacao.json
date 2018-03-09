@@ -69,15 +69,17 @@
         "diaLabel": "quarta-feira",
         "programacao": [{
                 "palestra": true,
-                "nome": "Á definir",
+                "aDefinir": true,
+                "nome": "Palestra 04",
                 "descricao": "Á definir",
+                "sobre": "Á definir",
                 "horario": "19:15",
                 "palestrante": {
-                    "img": "/andrey-wallace.jpeg",
-                    "nome": "Andrey Wallace",
+                    "img": "/avatar.png",
+                    "nome": "Á definir",
                     "twitter": "",
                     "instagram": "",
-                    "linkedin": "andrey-wallace-6434b72",
+                    "linkedin": "",
                     "github": ""
                 }
             },
@@ -123,35 +125,36 @@
     {
         "dia": "05",
         "diaLabel": "quinta-feira",
-        "programacao": [{
+        "programacao": [
+
+            {
                 "palestra": true,
-                "aDefinir": true,
-                "nome": "Palestra 07",
+                "nome": "Caju Valley",
                 "descricao": "Á definir",
-                "sobre": "Á definir",
                 "horario": "19:15",
                 "palestrante": {
-                    "img": "/avatar.png",
-                    "nome": "Á definir",
+                    "img": "/andrey-wallace.jpeg",
+                    "nome": "Andrey Wallace",
                     "twitter": "",
                     "instagram": "",
-                    "linkedin": "",
+                    "linkedin": "andrey-wallace-6434b72",
                     "github": ""
                 }
-            }, {
+            },
+
+            {
                 "palestra": true,
-                "aDefinir": true,
-                "nome": "Palestra 08",
-                "descricao": "Á definir",
-                "sobre": "Á definir",
+                "nome": "Como Ser um Cidadão em uma Cidade Inteligente",
+                "descricao": "Devido ao crescimento populacional e das Tecnologias da Informação e Comunicação (TIC) as cidades ou centro urbanos estão se tornando Cidades Inteligentes (Smart Cities) e os cidadãos que habitam estes lugares devem ser participativos para proverem soluções de cidadãos para cidadão. Venha aprender como colaborar e ajudar a sua cidade a ser uma Cidade Inteligente por meio da criatividade, podendo gerar renda e provendo uma melhor qualidade de vida.",
+                "sobre": "Professor de Computação na UFS. Doutorando em Propriedade Intelectual.",
                 "horario": "20:10",
                 "palestrante": {
-                    "img": "/avatar.png",
-                    "nome": "Á definir",
-                    "twitter": "",
-                    "instagram": "",
-                    "linkedin": "",
-                    "github": ""
+                    "img": "/gilton-mal.png",
+                    "nome": "Gilton Mal",
+                    "twitter": "giltonmal",
+                    "instagram": "giltonmal",
+                    "linkedin": "giltonmal",
+                    "github": "giltonmal"
                 }
             },
             {

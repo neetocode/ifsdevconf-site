@@ -56,7 +56,8 @@ module.exports = {
             'src/assets/palestrantes/avatar.png',
             'src/assets/palestrantes/mayara-machado.jpeg',
             'src/assets/palestrantes/andrey-wallace.jpeg',
-            'src/assets/palestrantes/breno-moura.jpg'
+            'src/assets/palestrantes/breno-moura.jpg',
+            'src/assets/palestrantes/gilton-mal.png',
 
             // new ServiceWorkerWebpackPlugin({
             //     entry: path.join(__dirname, 'src/assets/sw/OneSignalSDKWorker.js'),
