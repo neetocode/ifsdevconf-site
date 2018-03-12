@@ -1,0 +1,22 @@
+[{
+    "nome": "IFS",
+    "logo": "/apoio/logo-ifs.png",
+    "descricao": "",
+    "ordem": 1,
+    "url": "http://www.ifs.edu.br"
+},
+{
+    "nome": "PROPEX",
+    "logo": "/apoio/propex.png",
+    "descricao": "",
+    "ordem": 2,
+    "url": "http://www.ifs.edu.br/propex"
+},
+{
+    "nome": "CBSI",
+    "logo": "/apoio/CBSI-logo.jpg",
+    "descricao": "",
+    "ordem": 3,
+    "url": ""
+}
+]
