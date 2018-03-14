@@ -15,6 +15,22 @@ body {
     padding-top: 100%;
     font-family: 'Catamaran', sans-serif !important;
 }
+.apoio-container {
+    display: flex;    
+    justify-content: center;
+}
+.apoio-container .header {
+    display: flex;    
+    text-align: center;
+}
+
+
+.imgApoio{
+    width: 150px;
+    height: 150px;    
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 #brand {
     height: 100%;

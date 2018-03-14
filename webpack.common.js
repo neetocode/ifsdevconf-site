@@ -48,27 +48,23 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(['dist']),
         new ExtractTextPlugin('app.[hash].css'),
+        
+        new CopyWebpackPlugin([
+            {
+              from: './src/assets/apoio',
+              to: './apoio/'              
+            }
+        ]),
+        new CopyWebpackPlugin([
+            {
+              from: './src/assets/palestrantes',
+              to: '.'              
+            }
+        ]),
         new CopyWebpackPlugin([
             'src/assets/browserconfig.xml',
             'src/assets/manifest.json',
-            'src/assets/favicon.ico',
-            'src/assets/palestrantes/sergio.jpeg',
-            'src/assets/palestrantes/avatar.png',
-            'src/assets/palestrantes/mayara-machado.jpg',
-            'src/assets/palestrantes/andrey-wallace.jpeg',
-            'src/assets/palestrantes/breno-moura.jpg',
-            'src/assets/palestrantes/gilton-mal.png',
-
-            // new ServiceWorkerWebpackPlugin({
-            //     entry: path.join(__dirname, 'src/assets/sw/OneSignalSDKWorker.js'),
-            //     filename: "OneSignalSDKWorker.js",
-            //     excludes: ['*.*']
-            // }),
-            // new ServiceWorkerWebpackPlugin({
-            //     entry: path.join(__dirname, 'src/assets/sw/OneSignalSDKUpdaterWorker.js'),
-            //     filename: "OneSignalSDKUpdaterWorker.js",
-            //     excludes: ['*.*']
-            // }),
+            'src/assets/favicon.ico',            
         ])
     ]
 };

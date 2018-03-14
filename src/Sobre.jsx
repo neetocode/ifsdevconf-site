@@ -40,6 +40,9 @@ class Sobre extends React.Component {
                     <p className='text'>
                         O IFS Dev Conf um evento, com recorrência anual, para abordar os assuntos relacionados com a área de computação.
                     </p>
+                    
+
+
 
                     <p className='text'>
                         Com o objetivo de oferecer à comunidade (acadêmica ou não) do centro sul do estado de Sergipe a oportunidade de atualização de conhecimentos através da apresentação de tópicos relevantes e que estejam em evidência em computação e relacionadas com a temática da edição do evento.
@@ -89,7 +92,9 @@ class Sobre extends React.Component {
                             </p>
                         </div>
                     </div>
-
+                    <h2 className='title'>DIA E LOCAL</h2>                    
+                    <p className='text'>O evento está planejado para ser realizado nos dias 3, 4 e 5 de Abril no auditório do Instituto Federal de Sergipe (IFS) - Campus Lagarto, localizado na Rodovia Lourival Batista, no Povoado Carro Quebrado, Lagarto - SE.</p>
+                   
                 </div>
 
 

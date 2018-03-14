@@ -9,6 +9,7 @@ import MainNav from './MainNav'
 import Programacao from './Programacao'
 import Patrocinadores from './Patrocinadores'
 import Contato from './Contato'
+import Apoio from './Apoio';
 
 
 class App extends React.Component {
@@ -32,6 +33,7 @@ class App extends React.Component {
                 <Sobre />
                 <Programacao />
                 <Patrocinadores />
+                <Apoio />
                 <Contato />
             </div>
         )
