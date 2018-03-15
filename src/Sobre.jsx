@@ -93,7 +93,7 @@ class Sobre extends React.Component {
                         </div>
                     </div>
                     <h2 className='title'>DIA E LOCAL</h2>
-                    <p className='text'>O evento está planejado para ser realizado nos dias 3, 4 e 5 de Abril no auditório do Instituto Federal de Sergipe (IFS) - Campus Lagarto, localizado na Rodovia Lourival Batista, no Povoado Carro Quebrado, Lagarto - SE.</p>
+                    <p className='text'>O evento está planejado para ser realizado nos dias 3 e 4 de Abril no auditório do Instituto Federal de Sergipe (IFS) - Campus Lagarto, localizado na Rodovia Lourival Batista, no Povoado Carro Quebrado, Lagarto - SE.</p>
 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d17009.756799215807!2d-37.664222815416274!3d-10.936093030060546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb27bcbbb5c1ff2b3!2sIFS+-+Instituto+Federal+Sergipe%2C+Campus+Lagarto!5e0!3m2!1spt-BR!2sbr!4v1521121640665" width="100%" height="300" frameBorder="0" style={{ border: 0 }} allowFullScreen></iframe>
 
