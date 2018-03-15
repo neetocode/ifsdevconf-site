@@ -2,7 +2,7 @@
     --brand-light-color: #5a656f;
     --brand-color: #343c43;
     --invert-color: #EF6C00;
-    --invet-light-color: #ff9f50;
+    --invert-light-color: #ff9f50;
     --green: #1f7d20;
 }
 
@@ -383,6 +383,7 @@ footer {
 
 }
 
+
 .text-center {
     text-align: center;
 }
@@ -397,6 +398,45 @@ footer {
 footer p {
     color: white;
     font-size: 1.2em;
+}
+
+#btn-inscricoes {
+    position: fixed;
+    left: 3%;
+    top: 5%;
+    background-color: var(--invert-color);
+    color: white;
+    z-index: 999;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 10px 20px;
+    z-index: 9999;
+    border-radius: 3px;
+    opacity: .7;
+}
+
+#btn-inscricoes small {
+    height: 0;
+    overflow: hidden;
+}
+
+#btn-inscricoes:hover {
+    opacity: 1;
+}
+
+#btn-inscricoes small {
+    transition: all .1s ease-out;
+}
+
+#btn-inscricoes:hover small {
+    height: 1.5em;
+    transition: all .2s linear;
 }
 
 @media only screen and (min-width: 768px) {
