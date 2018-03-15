@@ -62,6 +62,12 @@ module.exports = {
             }
         ]),
         new CopyWebpackPlugin([
+            {
+              from: './src/assets/patrocinadores',
+              to: './patrocinadores/'              
+            }
+        ]),
+        new CopyWebpackPlugin([
             'src/assets/browserconfig.xml',
             'src/assets/manifest.json',
             'src/assets/favicon.ico',            
