@@ -24,10 +24,30 @@ class App extends React.Component {
         body.style.paddingTop = `${window.innerHeight}px`;
     }
 
+    renderInscricoes() {
+        var now = new Date();
+
+
+        var inicioInscricoes = new Date(Programacao.inscricoes.start);
+        var fimInscricoes = new Date(Programacao.inscricoes.end);
+
+
+        if (now > inicioInscricoes && now < fimInscricoes)
+            return (
+                <a href="http://publicacoes.ifs.edu.br/index.php/eventos" target="_blank" id="btn-inscricoes">
+                    <span>Inscreva-se</span>
+                    <small>É gratis!</small>
+                </a>
+            )
+
+        return null
+
+    }
+
     render() {
         return (
             <div>
-
+                {this.renderInscricoes()}
                 <Brand />
                 <MainNav />
                 <Sobre />
