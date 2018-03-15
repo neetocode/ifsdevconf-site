@@ -3,98 +3,35 @@
         "diaLabel": "terça-feira",
         "programacao": [{
                 "palestra": false,
-                "nome": "Credenciamento",
+                "nome": "Credenciamento e Abertura",
                 "img": "",
                 "horario": "18:40"
-            },
-            {
-                "palestra": false,
-                "nome": "Abertura",
-                "img": "",
-                "horario": "19:20"
             },
             {
                 "palestra": true,
                 "nome": "Suas escolhas definem os seus caminhos",
                 "descricao": "O objetivo da palestra é mostrar para os ouvintes que o sucesso profissional depende principalmente das escolhas diante das adversidades e desafios que surgem ao longo da formação profissional.",
-                "sobre": "Atualmente trabalhando na Caju Tech (trabalhando com tecnologias de Blockchain e Fintech junto a MoneyEx, empresa paulistana) e estudante do Instituto Federal em Lagarto, ex competidor da WorldSkills AbuDhabi 2017 em Soluções de Software através do SENAI.",
-                "horario": "19:40",
+                "horario": "19:20",
                 "palestrante": {
                     "img": "/sergio.jpeg",
                     "nome": "Sérgio Alves",
                     "instagram": "sergioalves_",
-                    "linkedin": "alvessergio"
-                }
-            },
-            {
-                "palestra": false,
-                "nome": "️️️Coffe-Break",
-                "img": "",
-                "horario": "20:10"
-            },
-            {
-                "palestra": true,
-                "aDefinir": true,
-                "nome": "Palestra 02",
-                "descricao": "Á definir",
-                "sobre": "Á definir",
-                "horario": "20:30",
-                "palestrante": {
-                    "img": "/avatar.png",
-                    "nome": "Á definir",
-                    "twitter": "",
-                    "instagram": "",
-                    "linkedin": "",
-                    "github": ""
+                    "linkedin": "alvessergio",
+                    "sobre": "Atualmente trabalhando na Caju Tech (trabalhando com tecnologias de Blockchain e Fintech junto a MoneyEx, empresa paulistana) e estudante do Instituto Federal em Lagarto, ex competidor da WorldSkills AbuDhabi 2017 em Soluções de Software através do SENAI."
                 }
             },
             {
                 "palestra": true,
-                "nome": "BlockChain para Desenvolvedores: Como desenvolver com essa ferramenta?",
-                "descricao": "Para o desenvolvedor BlockChain é uma ferramenta poderosa que vai muito além de que apenas o Bitcoin, muito se tem escutado sobre o poder revolucionário que o BlockChain carrega e é um diferencial para você como desenvolvedor saber utiliza-la. ",
-                "sobre": "Estudante da Universidade Federal de Sergipe, Integrante do Miau Mozilla Club, trabalha na Controladoria Geral do Estado.",
-                "horario": "21:00",
-                "palestrante": {
-                    "img": "/mayara-machado.jpg",
-                    "nome": "Mayara Machado",
-                    "twitter": "maaih_machado",
-                    "github": "MayaraMachado"
-                }
-            }
-        ]
-    },
-    {
-        "dia": "04",
-        "diaLabel": "quarta-feira",
-        "programacao": [{
-                "palestra": true,
-                "aDefinir": true,
-                "nome": "Palestra 04",
-                "descricao": "Á definir",
-                "sobre": "Á definir",
-                "horario": "19:15",
-                "palestrante": {
-                    "img": "/avatar.png",
-                    "nome": "Á definir",
-                    "twitter": "",
-                    "instagram": "",
-                    "linkedin": "",
-                    "github": ""
-                }
-            },
-            {
-                "palestra": true,
-                "nome": "Intraempreendedorismo - Você é a sua empresa",
-                "descricao": "Á definir",
-                "sobre": "Tech Leader Software Engineer na Jaya Tech",
+                "nome": "Com quantos fracassos se faz o Caju Valley?",
+                "descricao": "O que é o Caju Valley? Por que ecossistemas empreendedores fortes, ajudam jovens empresários a criarem soluções que de fato resolvam os problemas das pessoas ou negócios? Por que temos excelentes exemplos de negócios em TI realmente inovadores na nossa região que passam desvalorizados? Essas e outras perguntas são debatidas em um bate-papo curto e simples, sobre inovação, empreendedorismo, investimento, métricas e principalmente fracassos que fazem o ecossistema de inovação sergipano se movimentar ao longo dos anos.",
                 "horario": "20:00",
                 "palestrante": {
-                    "img": "/breno-moura.jpg",
-                    "nome": "Breno Moura",
-                    "twitter": "basmoura",
-                    "instagram": "basmoura",
-                    "linkedin": "basmoura",
-                    "github": "basmoura"
+                    "img": "/andrey-wallace.jpeg",
+                    "nome": "Andrey Wallace",
+                    "twitter": "",
+                    "instagram": "",
+                    "linkedin": "andrey-wallace-6434b72",
+                    "github": ""
                 }
             },
             {
@@ -105,68 +42,72 @@
             },
             {
                 "palestra": true,
-                "aDefinir": true,
-                "nome": "Palestra 06",
-                "descricao": "Á definir",
-                "sobre": "Á definir",
+                "nome": "BlockChain para Desenvolvedores: Como desenvolver com essa ferramenta?",
+                "descricao": "Para o desenvolvedor BlockChain é uma ferramenta poderosa que vai muito além de que apenas o Bitcoin, muito se tem escutado sobre o poder revolucionário que o BlockChain carrega e é um diferencial para você como desenvolvedor saber utiliza-la. ",
                 "horario": "21:00",
                 "palestrante": {
-                    "img": "/avatar.png",
-                    "nome": "Á definir",
-                    "twitter": "",
-                    "instagram": "",
-                    "linkedin": "",
-                    "github": ""
+                    "img": "/mayara-machado.jpg",
+                    "nome": "Mayara Machado",
+                    "twitter": "maaih_machado",
+                    "github": "MayaraMachado",
+                    "sobre": "Estudante da Universidade Federal de Sergipe, Integrante do Miau Mozilla Club, trabalha na Controladoria Geral do Estado."
                 }
             }
         ]
     },
     {
-        "dia": "05",
-        "diaLabel": "quinta-feira",
-        "programacao": [
-
-            {
+        "dia": "04",
+        "diaLabel": "quarta-feira",
+        "programacao": [{
                 "palestra": true,
-                "nome": "Caju Valley",
+                "nome": "Á definir",
                 "descricao": "Á definir",
-                "horario": "19:15",
+                "sobre": "Á definir",
+                "horario": "19:10",
                 "palestrante": {
-                    "img": "/andrey-wallace.jpeg",
-                    "nome": "Andrey Wallace",
+                    "img": "/avatar.png",
+                    "nome": "Grupo Nordestiny",
                     "twitter": "",
                     "instagram": "",
-                    "linkedin": "andrey-wallace-6434b72",
+                    "linkedin": "",
                     "github": ""
                 }
             },
-
+            {
+                "palestra": true,
+                "nome": "Intraempreendedorismo - Você é a sua empresa",
+                "descricao": "Á definir",
+                "horario": "20:00",
+                "palestrante": {
+                    "img": "/breno-moura.jpg",
+                    "nome": "Breno Moura",
+                    "twitter": "basmoura",
+                    "instagram": "basmoura",
+                    "linkedin": "basmoura",
+                    "github": "basmoura",
+                    "sobre": "Tech Leader Software Engineer na Jaya Tech"
+                }
+            },
             {
                 "palestra": true,
                 "nome": "Como Ser um Cidadão em uma Cidade Inteligente",
                 "descricao": "Devido ao crescimento populacional e das Tecnologias da Informação e Comunicação (TIC) as cidades ou centro urbanos estão se tornando Cidades Inteligentes (Smart Cities) e os cidadãos que habitam estes lugares devem ser participativos para proverem soluções de cidadãos para cidadão. Venha aprender como colaborar e ajudar a sua cidade a ser uma Cidade Inteligente por meio da criatividade, podendo gerar renda e provendo uma melhor qualidade de vida.",
-                "sobre": "Professor de Computação na UFS. Doutorando em Propriedade Intelectual.",
-                "horario": "20:10",
+                "horario": "20:50",
                 "palestrante": {
                     "img": "/gilton-mal.png",
                     "nome": "Gilton Mal",
                     "twitter": "giltonmal",
                     "instagram": "giltonmal",
                     "linkedin": "giltonmal",
-                    "github": "giltonmal"
+                    "github": "giltonmal",
+                    "sobre": "Professor de Computação na UFS. Doutorando em Propriedade Intelectual."
                 }
             },
             {
                 "palestra": false,
-                "nome": "️️️Encerramento",
+                "nome": "️️️Coffe Break e Encerramento",
                 "img": "",
-                "horario": "21:00"
-            },
-            {
-                "palestra": false,
-                "nome": "️️️Coffe-Break",
-                "img": "",
-                "horario": "21:20"
+                "horario": "21:40"
             }
         ]
     }
