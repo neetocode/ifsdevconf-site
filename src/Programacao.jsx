@@ -43,6 +43,10 @@ class Programacao extends React.Component {
                     <img src={palestrante.img} />
                     <h3 className='nome'>
                         {palestrante.nome}
+                        <br />
+                        <small>
+                            {palestrante.sobre}
+                        </small>
                     </h3>
 
                     {!palestra.aDefinir && (
@@ -138,7 +142,7 @@ class Programacao extends React.Component {
     }
 
     render() {
-        const dias = [programacao[0], programacao[1], programacao[2]]
+        const dias = [programacao[0], programacao[1]]
 
         return (
             <section id="programacao">

@@ -15,19 +15,23 @@ body {
     padding-top: 100%;
     font-family: 'Catamaran', sans-serif !important;
 }
+
 .apoio-container {
-    display: flex;    
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: row wrap;
 }
-.apoio-container .header {
-    display: flex;    
-    text-align: center;
+
+.apoio-container .apoio {
+    margin: 5px;
 }
 
 
-.imgApoio{
-    width: 150px;
-    height: 150px;    
+.apoio-container .apoio img {
+    width: 120px;
+    height: auto;
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -182,6 +186,7 @@ footer {
     color: white;
     position: absolute;
     bottom: 9%;
+    right: 2%;
     font-size: 3em;
 }
 
@@ -246,6 +251,7 @@ footer {
 .palestra-container .header .nome {
     font-weight: 700;
     font-size: 1.1em;
+    padding: 4px 10px;
     display: block;
     text-align: center;
     flex: 1;
@@ -271,12 +277,33 @@ footer {
     box-shadow: 0px 0 5px #00000080;
 }
 
+.palestra-container .patrocinador {
+    flex: 1;
+}
+
 .palestra-container .palestrante .nome {
     flex: 1;
     text-align: left;
     font-weight: bold;
 
 }
+
+.palestrante .nome small {
+    font-size: .8em;
+    color: #8c8c8c;
+}
+
+.palestrante .contatos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: wrap;
+}
+
+.palestrante .contatos a {
+    padding: 5px;
+}
+
 
 .patrocinadores-container {
     padding: 10px 0;
@@ -287,6 +314,19 @@ footer {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.patrocinadores-container .patrocinadores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.patrocinador img {
+    width: 100px;
+    height: auto;
 }
 
 .patrocinadores-container h2 {
@@ -305,16 +345,7 @@ footer {
     border-radius: 50%;
 }
 
-.palestrante .contatos {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-flow: wrap;
-}
 
-.palestrante .contatos a {
-    padding: 5px;
-}
 
 /* tablet */
 
@@ -356,6 +387,18 @@ footer {
     text-align: center;
 }
 
+footer {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color: white;
+    font-size: 1.2em;
+}
+
 @media only screen and (min-width: 768px) {
     .show-xs {
         display: none !important;
@@ -370,8 +413,8 @@ footer {
     }
 
     .container {
-        margin-left: 2% !important;
-        margin-right: 2% !important;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 }
 
