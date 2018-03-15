@@ -4,7 +4,7 @@
         "end": "2018-04-03T22:00:00"
     },
     "name": "ifsdevconf-site",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Site de apresentação do evento IFS DEV CONF 2018. Organizado por alunos do Instituto Federal de Sergipe - Campus Lagarto.",
     "main": "index.js",
     "scripts": {
