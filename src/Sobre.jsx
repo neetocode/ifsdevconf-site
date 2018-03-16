@@ -38,7 +38,7 @@ class Sobre extends React.Component {
                     <h2 className='title'>SOBRE</h2>
 
                     <p className='text'>
-                        O IFS Dev Conf um evento, com recorrência anual, para abordar os assuntos relacionados com a área de computação.
+                        O IFS Dev Conf é um evento, com recorrência anual, para abordar os assuntos relacionados com a área de computação.
                     </p>
 
 
