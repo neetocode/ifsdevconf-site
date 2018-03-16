@@ -16,20 +16,23 @@ body {
     font-family: 'Catamaran', sans-serif !important;
 }
 
-.apoio-container {
+.apoio-container,
+.patrocinadores {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     flex-flow: row wrap;
 }
 
-.apoio-container .apoio {
-    margin: 5px;
+.apoio-container .apoio,
+.patrocinadores .patrocinador {
+    margin: 10px;
 }
 
 
-.apoio-container .apoio img {
+.apoio-container .apoio img,
+.patrocinador img {
     width: 120px;
     height: auto;
     margin-left: 30px;
@@ -134,10 +137,6 @@ section h4 {
 .social-container li {
     list-style: none;
     margin-bottom: 10px;
-}
-
-.fadeBox {
-    opacity: var(--o);
 }
 
 .social-container a {
@@ -277,9 +276,6 @@ footer {
     box-shadow: 0px 0 5px #00000080;
 }
 
-.palestra-container .patrocinador {
-    flex: 1;
-}
 
 .palestra-container .palestrante .nome {
     flex: 1;
@@ -317,17 +313,17 @@ footer {
     margin-bottom: 5px;
 }
 
-.patrocinadores-container .patrocinadores {
+.patrocinadores .patrocinador {
+    margin: 10px;
+
+}
+
+/* .patrocinadores-container .patrocinadores {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-}
-
-.patrocinador img {
-    width: 100px;
-    height: auto;
-}
+} */
 
 .patrocinadores-container h2 {
     font-weight: 700;
@@ -418,7 +414,7 @@ footer p {
     padding: 10px 20px;
     z-index: 9999;
     border-radius: 3px;
-    opacity: .7;
+    opacity: .9;
 }
 
 #btn-inscricoes small {

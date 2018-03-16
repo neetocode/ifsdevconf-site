@@ -1,22 +1,29 @@
 [{
-    "nome": "IFS",
-    "logo": "/apoio/logo-ifs.png",
-    "descricao": "",
-    "ordem": 1,
-    "url": "http://www.ifs.edu.br"
-},
-{
-    "nome": "PROPEX",
-    "logo": "/apoio/propex.png",
-    "descricao": "",
-    "ordem": 2,
-    "url": "http://www.ifs.edu.br/propex"
-},
-{
-    "nome": "CBSI",
-    "logo": "/apoio/CBSI-logo.jpg",
-    "descricao": "",
-    "ordem": 3,
-    "url": "#apoio"
-}
+        "nome": "Umbler - Hospedagem Cloud por demanda para Agências e Devs",
+        "logo": "/apoio/logo-umbler.png",
+        "descricao": "",
+        "ordem": 4,
+        "url": "https://www.umbler.com/"
+    },
+    {
+        "nome": "IFS",
+        "logo": "/apoio/logo-ifs.png",
+        "descricao": "",
+        "ordem": 1,
+        "url": "http://www.ifs.edu.br"
+    },
+    {
+        "nome": "PROPEX",
+        "logo": "/apoio/propex.png",
+        "descricao": "",
+        "ordem": 2,
+        "url": "http://www.ifs.edu.br/propex"
+    },
+    {
+        "nome": "CBSI",
+        "logo": "/apoio/CBSI-logo.jpg",
+        "descricao": "",
+        "ordem": 3,
+        "url": "#apoio"
+    }
 ]

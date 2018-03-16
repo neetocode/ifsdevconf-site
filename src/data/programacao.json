@@ -31,7 +31,8 @@
                     "twitter": "",
                     "instagram": "",
                     "linkedin": "andrey-wallace-6434b72",
-                    "github": ""
+                    "github": "",
+                    "sobre": "Bacharel em ciências da computação, sócio na Hello World Softwares, membro da IxDA Aracaju."
                 }
             },
             {
@@ -60,17 +61,16 @@
         "diaLabel": "quarta-feira",
         "programacao": [{
                 "palestra": true,
-                "nome": "Á definir",
-                "descricao": "Á definir",
-                "sobre": "Á definir",
-                "horario": "19:10",
+                "nome": "Empreendendo na universidade: um bolso vazio e muitos sonhos",
+                "descricao": "Será mostrado o case da Nordestiny, como surgiu, seus objetivos, estratégias de posicionamento e dicas para pessoas que estão na universidade e querem empreender sem muito capital de investimento. Instituição de ensino",
                 "palestrante": {
-                    "img": "/avatar.png",
+                    "img": "/logo-nordestiny.jpg",
                     "nome": "Grupo Nordestiny",
                     "twitter": "",
-                    "instagram": "",
+                    "instagram": "nordestiny",
                     "linkedin": "",
-                    "github": ""
+                    "github": "",
+                    "sobre": "A Nordestiny é um Grupo de Desenvolvimento de Games que visa a fomentação da pesquisa acadêmica na área e produção de projetos práticos servindo de grupos de estudo por parte de alunos e outros membros."
                 }
             },
             {

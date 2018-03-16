@@ -38,18 +38,15 @@ class Sobre extends React.Component {
                     <h2 className='title'>SOBRE</h2>
 
                     <p className='text'>
-                        O IFS Dev Conf é um evento, com recorrência anual, para abordar os assuntos relacionados com a área de computação.
-                    </p>
-
-
-
-
-                    <p className='text'>
-                        Com o objetivo de oferecer à comunidade (acadêmica ou não) do centro sul do estado de Sergipe a oportunidade de atualização de conhecimentos através da apresentação de tópicos relevantes e que estejam em evidência em computação e relacionadas com a temática da edição do evento.
+                        O IFS Dev Conf é um evento, com recorrência anual, que aborda assuntos relacionados a área de computação.
                     </p>
 
                     <p className='text'>
-                        Nesta edição serão trabalhados temas em programação, empreendedorismo e inovação, promovendo sua integração através da realização de palestras
+                        Tem por objetivo oferecer à comunidade (acadêmica ou não) do centro sul do estado de Sergipe a oportunidade de atualizar seus conhecimentos através da apresentação de tópicos relevantes e que estejam em evidência na área de computação e relacionadas com a temática da edição do evento.
+                    </p>
+
+                    <p className='text'>
+                        Nesta edição, serão trabalhados os temas: programação, empreendedorismo e inovação; promovendo sua integração através da realização de palestras.
                     </p>
                     <br />
 

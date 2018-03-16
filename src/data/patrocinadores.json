@@ -3,4 +3,9 @@
     "imagem": "/patrocinadores/quero-delivery.png",
     "url": "https://www.querodelivery.com",
     "cota": "OURO"
+}, {
+    "nome": "CIO-SE",
+    "imagem": "/patrocinadores/logo-cio-se.jpg",
+    "url": " https://cio-se.org.br/",
+    "cota": "OURO"
 }]

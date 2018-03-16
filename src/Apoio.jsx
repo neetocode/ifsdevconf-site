@@ -15,7 +15,7 @@ class Apoio extends React.Component {
     render() {
         return (
             <section id="apoio">
-                <h2 className='title'>AGRADECIMENTOS</h2>
+                <h2 className='title'>APOIO</h2>
 
 
                 <div className="container">
