@@ -60,6 +60,7 @@
         "dia": "04",
         "diaLabel": "quarta-feira",
         "programacao": [{
+                "horario": "19:20",
                 "palestra": true,
                 "nome": "Empreendendo na universidade: um bolso vazio e muitos sonhos",
                 "descricao": "Será mostrado o case da Nordestiny, como surgiu, seus objetivos, estratégias de posicionamento e dicas para pessoas que estão na universidade e querem empreender sem muito capital de investimento. Instituição de ensino",
