@@ -45,22 +45,8 @@ class Patrocinadores extends React.Component {
                 <h2 className='title'>PATROCINADORES</h2>
 
                 <div className="container">
-                    <div className="patrocinadores-container">
-                        <div className="header">
-                            <img src={imgBronze} className='img-cota' />
-                            <h2>Bronze</h2>
-                        </div>
-                        <div>
 
-                        </div>
-                    </div>
-                    <div className="patrocinadores-container">
-                        <div className="header">
-                            <img src={imgPrata} className='img-cota' />
-                            <h2>Prata</h2>
-                        </div>
 
-                    </div>
                     <div className="patrocinadores-container">
                         <div className="header">
                             <img src={imgOuro} className='img-cota' />
@@ -68,6 +54,28 @@ class Patrocinadores extends React.Component {
                         </div>
                         <div className="patrocinadores">
                             {ouro.map(this.renderPatrocinador.bind(this))}
+                        </div>
+                    </div>
+
+                    <div className="patrocinadores-container">
+                        <div className="header">
+                            <img src={imgPrata} className='img-cota' />
+                            <h2>Prata</h2>
+                        </div>
+
+                        <div className="patrocinadores">
+                            {prata.map(this.renderPatrocinador.bind(this))}
+                        </div>
+
+                    </div>
+
+                    <div className="patrocinadores-container">
+                        <div className="header">
+                            <img src={imgBronze} className='img-cota' />
+                            <h2>Bronze</h2>
+                        </div>
+                        <div className="patrocinadores">
+                            {bronze.map(this.renderPatrocinador.bind(this))}
                         </div>
                     </div>
                 </div>

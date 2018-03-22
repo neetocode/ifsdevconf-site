@@ -6,6 +6,30 @@
 }, {
     "nome": "CIO-SE",
     "imagem": "/patrocinadores/logo-cio-se.jpg",
-    "url": " https://cio-se.org.br/",
+    "url": "https://cio-se.org.br/",
     "cota": "OURO"
+},
+{
+    "nome": "Açaí da Tia Lidia - Lagarto",
+    "imagem": "/patrocinadores/acai-tia-lidia.jpg",
+    "url": "https://www.facebook.com/acaidatialidialagarto/",
+    "cota": "BRONZE"
+},
+{
+    "nome": "Gráfica Copy +",
+    "imagem": "/patrocinadores/copy-mais.jpg",
+    "url": "",
+    "cota": "PRATA"
+},
+{
+    "nome": "Nordeste Motos - Concessionária Honda",
+    "imagem": "/patrocinadores/nordeste-motos.png",
+    "url": "",
+    "cota": "PRATA"
+},
+{
+    "nome": "Minas Net - Provedor de Internet",
+    "imagem": "/patrocinadores/minas-net.jpg",
+    "url": "http://www.portalminasnet.com/",
+    "cota": "PRATA"
 }]
