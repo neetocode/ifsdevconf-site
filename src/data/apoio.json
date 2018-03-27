@@ -1,4 +1,10 @@
 [{
+        "nome": "Lagarto Notícias",
+        "logo": "/apoio/lagarto-noticias.png",
+        "descricao": "",
+        "ordem": 5,
+        "url": "http://www.lagartonoticias.com.br/"
+    }, {
         "nome": "Umbler - Hospedagem Cloud por demanda para Agências e Devs",
         "logo": "/apoio/logo-umbler.png",
         "descricao": "",

@@ -37,6 +37,12 @@
         "nome": "Bolo Bom",
         "imagem": "/patrocinadores/bolo-bom.png",
         "url": "http://www.bolobom.com.br/",
-        "cota": "PRATA"
+        "cota": "BRONZE"
+    },
+    {
+        "nome": "Info Master",
+        "imagem": "/patrocinadores/info-master.jpg",
+        "url": "https://www.facebook.com/pages/Info-Master-Informatica/281378258563162",
+        "cota": "BRONZE"
     }
 ]
